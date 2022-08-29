@@ -64,42 +64,5 @@ for i in range(0,len(Chr)):
         write = csv.writer(f)
         write.writerow(cols)
         write.writerows(csv_rows)
-with open("/home/Digi118078/0808/PRS_score/score.txt","w") as score_file:
-    score_file.write(f"{file_name}\t{sum(count)}\t{len(final)}\n")
-# print("+++++++++++++++")
-# print(sum(count))
-# print(len(final))
-
-
-
-
-
-# cols = ["SNP ID", "CHR", "BP", "Allele", "chinese OR", "Effect Size", "sample 1", "score"]
-# import csv
-# # rows = [f_SnpID, f_Chr, f_Bp, f_Allele, f_sample_1, f_chi_OR, f_EffectSize, f_score]
-# with open(f"result_{name}.csv","w") as f:
-#     write = csv.writer(f)
-#     write.writerow(cols)
-#     write.writerows(csv_rows)
-
-# # for i in range(0,len(vcf_CHROM)):
-# #     print(vcf_CHROM[i].replace("chr",""))  #1
-# #     print(vcf["file_name"][i].split(":")[0])   #0/1
-# #     if str(vcf_CHROM[i].replace("chr","")) == '1':
-
-# #     break
-# #     #     print(vcf["file_name"][i])
-# #     #     break
-
-# '''
-# SNP ID | CHR | BP | Allele | chinese OR | Effect Size | sample 1 | score
-
-# f_SnpID = []
-# f_Chr = []
-# f_Bp = []
-# f_Allele = []
-# f_sample_1 = []
-# f_chi_OR = []
-# f_EffectSize = []
-# f_score = []
-# '''
+# with open("/home/Digi118078/0808/PRS_score/score.txt","w") as score_file:
+#     score_file.write(f"{file_name}\t{sum(count)}\t{len(final)}\n")
